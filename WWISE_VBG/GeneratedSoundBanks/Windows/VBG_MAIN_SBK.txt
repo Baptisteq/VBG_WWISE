@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	82851639	Event_HEPHA_ATK			\WU_VBG_Events\Event_HEPHA_ATK	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	101652600	SFX_Hephaestus_ATK_Rnd_4	E:\PROJET\VBG\002_WWISE\WWISE_VBG\.cache\Windows\SFX\SFX_Hephaestus_ATK_Rnd_4_F7D0E330.wem		\Actor-Mixer Hierarchy\WU_VBG_ActorMixer-Hierarchy\RND_HEPHA_ATK\SFX_Hephaestus_ATK_Rnd_4		3418
+	316226122	SFX_Hephaestus_ATK_Rnd_2	E:\PROJET\VBG\002_WWISE\WWISE_VBG\.cache\Windows\SFX\SFX_Hephaestus_ATK_Rnd_2_F7D0E330.wem		\Actor-Mixer Hierarchy\WU_VBG_ActorMixer-Hierarchy\RND_HEPHA_ATK\SFX_Hephaestus_ATK_Rnd_2		3653
+	903616490	SFX_Hephaestus_ATK_Rnd_3	E:\PROJET\VBG\002_WWISE\WWISE_VBG\.cache\Windows\SFX\SFX_Hephaestus_ATK_Rnd_3_F7D0E330.wem		\Actor-Mixer Hierarchy\WU_VBG_ActorMixer-Hierarchy\RND_HEPHA_ATK\SFX_Hephaestus_ATK_Rnd_3		3885
+	940324060	SFX_Hephaestus_ATK_Rnd_1	E:\PROJET\VBG\002_WWISE\WWISE_VBG\.cache\Windows\SFX\SFX_Hephaestus_ATK_Rnd_1_F7D0E330.wem		\Actor-Mixer Hierarchy\WU_VBG_ActorMixer-Hierarchy\RND_HEPHA_ATK\SFX_Hephaestus_ATK_Rnd_1		2592
+

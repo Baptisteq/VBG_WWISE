@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CC6E3512-3E78-4588-811B-6A06DBC62EA6}" SchemaVersion="85">
+	<Modulators>
+		<WorkUnit Name="WU_VBG_SHARESET_Modulators" ID="{CC6E3512-3E78-4588-811B-6A06DBC62EA6}" PersistMode="Standalone"/>
+	</Modulators>
+</WwiseDocument>

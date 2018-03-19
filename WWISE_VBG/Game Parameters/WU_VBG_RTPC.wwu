@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{495DA0F7-B6FC-4048-A597-6DF997B83F5D}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="WU_VBG_RTPC" ID="{495DA0F7-B6FC-4048-A597-6DF997B83F5D}" PersistMode="Standalone"/>
+	</GameParameters>
+</WwiseDocument>

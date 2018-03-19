@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FBAAE25C-CBA9-4D4D-8E15-16FEFC5E947C}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="WU_VBG_SBK" ID="{FBAAE25C-CBA9-4D4D-8E15-16FEFC5E947C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="VBG_MAIN_SBK" ID="{AD8C38F8-CFC0-4AA8-96EF-7D6560236BBF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Event_HEPHA_ATK" ID="{83E35737-2EC9-4C88-8B8A-8AF40207E97F}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

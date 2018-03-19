@@ -1,0 +1,73 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "11",
+  "SoundbankVersion": "128",
+  "RootPaths": {
+   "ProjectRoot": "E:\\PROJET\\VBG\\002_WWISE\\WWISE_VBG\\",
+   "SourceFilesRoot": "E:\\PROJET\\VBG\\002_WWISE\\WWISE_VBG\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\PROJET\\VBG\\002_WWISE\\WWISE_VBG\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\PROJET\\VBG\\002_WWISE\\WWISE_VBG\\GeneratedSoundBanks\\Windows\\"
+  },
+  "DialogueEvents": [],
+  "StreamedFiles": [],
+  "MediaFilesNotInAnyBank": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   },
+   {
+    "Id": "3373090871",
+    "GUID": "{AD8C38F8-CFC0-4AA8-96EF-7D6560236BBF}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\WU_VBG_SBK\\VBG_MAIN_SBK",
+    "ShortName": "VBG_MAIN_SBK",
+    "Path": "VBG_MAIN_SBK.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "82851639",
+      "Name": "Event_HEPHA_ATK",
+      "ObjectPath": "\\Events\\WU_VBG_Events\\Event_HEPHA_ATK",
+      "GUID": "{83E35737-2EC9-4C88-8B8A-8AF40207E97F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.230842",
+      "DurationMax": "0.553451"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "101652600",
+      "Language": "SFX",
+      "ShortName": "SFX_Hephaestus_ATK_Rnd_4.wav",
+      "Path": "SFX\\SFX_Hephaestus_ATK_Rnd_4_F7D0E330.wem"
+     },
+     {
+      "Id": "316226122",
+      "Language": "SFX",
+      "ShortName": "SFX_Hephaestus_ATK_Rnd_2.wav",
+      "Path": "SFX\\SFX_Hephaestus_ATK_Rnd_2_F7D0E330.wem"
+     },
+     {
+      "Id": "903616490",
+      "Language": "SFX",
+      "ShortName": "SFX_Hephaestus_ATK_Rnd_3.wav",
+      "Path": "SFX\\SFX_Hephaestus_ATK_Rnd_3_F7D0E330.wem"
+     },
+     {
+      "Id": "940324060",
+      "Language": "SFX",
+      "ShortName": "SFX_Hephaestus_ATK_Rnd_1.wav",
+      "Path": "SFX\\SFX_Hephaestus_ATK_Rnd_1_F7D0E330.wem"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}" SchemaVersion="85">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{850A1253-0D3C-4F84-B063-3E92BA4DBEBB}" WorkUnitID="{2487C6A0-FA32-4207-A1CE-5CDA417A171C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{53966FD4-D982-418F-9758-6E299712664C}">
+							<ChildrenList>
+								<Bus Name="CHARA" ID="{967B77B6-5132-4815-A5B7-8C5944134086}">
+									<ChildrenList>
+										<Bus Name="HEPHA" ID="{6D8BB1D6-1943-4F23-A4EE-AA0D281A0342}"/>
+									</ChildrenList>
+								</Bus>
+								<AuxBus Name="SFX_RVB_EXT" ID="{32C13DBF-44F4-412E-9BD2-4340D99D5C36}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

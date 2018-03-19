@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{365E8E69-C77B-442E-9365-1A43EEB81331}" SchemaVersion="85">
+	<Attenuations>
+		<WorkUnit Name="WU_VBG_SHARESET_Att" ID="{365E8E69-C77B-442E-9365-1A43EEB81331}" PersistMode="Standalone"/>
+	</Attenuations>
+</WwiseDocument>

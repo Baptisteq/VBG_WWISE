@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="85">
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1521478080" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1521478080" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Attenuations\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Audio Devices\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Control Surface Sessions\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Conversion Settings\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1521478080" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Effects\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Effects\Factory Effects.wwu" DateLow="1521478080" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Effects\Factory iZotope Box Modeler.wwu" DateLow="1521478081" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Effects\Factory iZotope Delay.wwu" DateLow="1521478081" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Effects\Factory iZotope Dynamics.wwu" DateLow="1521478081" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Effects\Factory iZotope Filters.wwu" DateLow="1521478081" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1521478081" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1521478081" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1521478081" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Effects\Factory McDSP Effects.wwu" DateLow="1521478081" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Events\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Game Parameters\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1521478081" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Mixing Sessions\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Modulators\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Presets\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Queries\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Queries\Factory Queries.wwu" DateLow="1521478080" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\SoundBanks\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\States\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Switches\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Triggers\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Virtual Acoustics\Default Work Unit.wwu" DateLow="1521478131" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1521478081" DateHigh="0"/>
+	<ValidationCacheItem File="E:\PROJET\VBG\002_WWISE\WWISE_VBG\WWISE_VBG.wproj" DateLow="1521478131" DateHigh="0"/>
+</ValidationCache>

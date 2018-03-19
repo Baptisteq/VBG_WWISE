@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="WU_VBG_Events" ID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Event_HEPHA_ATK" ID="{83E35737-2EC9-4C88-8B8A-8AF40207E97F}">
+					<ChildrenList>
+						<Action Name="" ID="{E004E451-9646-4A07-A7B2-0D4BC76E78B8}" ShortID="1047806781">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RND_HEPHA_ATK" ID="{DFF8D70F-6FCC-43CB-A9AF-A2AFC687BA8D}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
