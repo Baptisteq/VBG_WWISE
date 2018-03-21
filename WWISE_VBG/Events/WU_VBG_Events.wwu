@@ -17,6 +17,62 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Event_VBG_PORT" ID="{89C691CB-7281-48AD-986A-950A5B870836}">
+					<ChildrenList>
+						<Action Name="" ID="{02E71D69-E435-41FE-B076-07748FF42270}" ShortID="125623849">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PLAYLIST_VBG_PORT" ID="{CD58D1D8-D4D3-4BB4-AE90-5790DAE6FD4F}" WorkUnitID="{2E204A2C-50DD-4E2E-AD9B-5BD9C0263B33}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Footsteps_Heavy" ID="{4AD0EE48-C2A0-41BF-BE1D-726D26B578E7}">
+					<ChildrenList>
+						<Action Name="" ID="{0D85F26C-AC31-4D03-AD53-D25F4FFDA355}" ShortID="514134788">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SWITCH_Footsteps_Heavy" ID="{43D7C6F5-B7C0-4A6F-90E7-A21C72998C99}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Footsteps_Light" ID="{910ACA6D-629A-4B80-890B-B394CE512FE0}">
+					<ChildrenList>
+						<Action Name="" ID="{47EC9DA4-66A3-483D-AF51-0353D0427BC2}" ShortID="1071913784">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SWITCH_Footsteps_Light" ID="{56610C70-D7C8-4F2B-B478-BD3390111E18}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Event_Init" ID="{E74F7B10-F591-4A31-8379-226586BF1D9B}">
+					<ChildrenList>
+						<Action Name="" ID="{23E6C984-2BFE-40FE-8E36-58572B2FC220}" ShortID="325293626">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Event_VBG_PORT" ID="{89C691CB-7281-48AD-986A-950A5B870836}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

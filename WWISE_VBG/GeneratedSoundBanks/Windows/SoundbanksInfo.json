@@ -12,7 +12,14 @@
    "ExternalSourcesOutputRoot": "E:\\PROJET\\VBG\\002_WWISE\\WWISE_VBG\\GeneratedSoundBanks\\Windows\\"
   },
   "DialogueEvents": [],
-  "StreamedFiles": [],
+  "StreamedFiles": [
+   {
+    "Id": "111399950",
+    "Language": "SFX",
+    "ShortName": "VBG_PORT.wav",
+    "Path": "SFX\\VBG_PORT_F17FB28C.wem"
+   }
+  ],
   "MediaFilesNotInAnyBank": [],
   "SoundBanks": [
    {
@@ -39,9 +46,71 @@
       "DurationType": "OneShot",
       "DurationMin": "0.230842",
       "DurationMax": "0.553451"
+     },
+     {
+      "Id": "2451167397",
+      "Name": "Event_VBG_PORT",
+      "ObjectPath": "\\Events\\WU_VBG_Events\\Event_VBG_PORT",
+      "GUID": "{89C691CB-7281-48AD-986A-950A5B870836}",
+      "DurationType": "OneShot",
+      "DurationMin": "53.823677",
+      "DurationMax": "53.823677"
+     },
+     {
+      "Id": "145704183",
+      "Name": "Play_Footsteps_Heavy",
+      "ObjectPath": "\\Events\\WU_VBG_Events\\Play_Footsteps_Heavy",
+      "GUID": "{4AD0EE48-C2A0-41BF-BE1D-726D26B578E7}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.040946",
+      "DurationMax": "1.583521"
+     },
+     {
+      "Id": "2827287670",
+      "Name": "Play_Footsteps_Light",
+      "ObjectPath": "\\Events\\WU_VBG_Events\\Play_Footsteps_Light",
+      "GUID": "{910ACA6D-629A-4B80-890B-B394CE512FE0}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.052054",
+      "DurationMax": "1.771396"
+     }
+    ],
+    "ReferencedStreamedFiles": [
+     {
+      "Id": "111399950"
      }
     ],
     "IncludedMemoryFiles": [
+     {
+      "Id": "18065472",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Dirt_Heavy-002.wav",
+      "Path": "SFX\\SFX_Footsteps_Dirt_Heavy-002_F7D0E330.wem"
+     },
+     {
+      "Id": "29435297",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Dirt_Heavy-008.wav",
+      "Path": "SFX\\SFX_Footsteps_Dirt_Heavy-008_F7D0E330.wem"
+     },
+     {
+      "Id": "55560329",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Wood_Heavy-005.wav",
+      "Path": "SFX\\SFX_Footsteps_Wood_Heavy-005_F7D0E330.wem"
+     },
+     {
+      "Id": "72399346",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Wood_Light-002.wav",
+      "Path": "SFX\\SFX_Footsteps_Wood_Light-002_F7D0E330.wem"
+     },
+     {
+      "Id": "82034909",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Dirt_Heavy-003.wav",
+      "Path": "SFX\\SFX_Footsteps_Dirt_Heavy-003_F7D0E330.wem"
+     },
      {
       "Id": "101652600",
       "Language": "SFX",
@@ -49,10 +118,244 @@
       "Path": "SFX\\SFX_Hephaestus_ATK_Rnd_4_F7D0E330.wem"
      },
      {
+      "Id": "110006263",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Wood_Heavy-002.wav",
+      "Path": "SFX\\SFX_Footsteps_Wood_Heavy-002_F7D0E330.wem"
+     },
+     {
+      "Id": "138122895",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Dirt_Light-003.wav",
+      "Path": "SFX\\SFX_Footsteps_Dirt_Light-003_F7D0E330.wem"
+     },
+     {
+      "Id": "174657596",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Wood_Heavy-003.wav",
+      "Path": "SFX\\SFX_Footsteps_Wood_Heavy-003_F7D0E330.wem"
+     },
+     {
+      "Id": "174878853",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Stone_Light-007.wav",
+      "Path": "SFX\\SFX_Footsteps_Stone_Light-007_F7D0E330.wem"
+     },
+     {
+      "Id": "182924328",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Stone_Heavy-004.wav",
+      "Path": "SFX\\SFX_Footsteps_Stone_Heavy-004_F7D0E330.wem"
+     },
+     {
+      "Id": "191647212",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Stone_Heavy-001.wav",
+      "Path": "SFX\\SFX_Footsteps_Stone_Heavy-001_F7D0E330.wem"
+     },
+     {
+      "Id": "227442152",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Wood_Light-006.wav",
+      "Path": "SFX\\SFX_Footsteps_Wood_Light-006_F7D0E330.wem"
+     },
+     {
+      "Id": "241865414",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Stone_Heavy-005.wav",
+      "Path": "SFX\\SFX_Footsteps_Stone_Heavy-005_F7D0E330.wem"
+     },
+     {
       "Id": "316226122",
       "Language": "SFX",
       "ShortName": "SFX_Hephaestus_ATK_Rnd_2.wav",
       "Path": "SFX\\SFX_Hephaestus_ATK_Rnd_2_F7D0E330.wem"
+     },
+     {
+      "Id": "367290376",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Dirt_Heavy-007.wav",
+      "Path": "SFX\\SFX_Footsteps_Dirt_Heavy-007_F7D0E330.wem"
+     },
+     {
+      "Id": "378976114",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Wood_Heavy-001.wav",
+      "Path": "SFX\\SFX_Footsteps_Wood_Heavy-001_F7D0E330.wem"
+     },
+     {
+      "Id": "421550719",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Wood_Heavy-006.wav",
+      "Path": "SFX\\SFX_Footsteps_Wood_Heavy-006_F7D0E330.wem"
+     },
+     {
+      "Id": "431633879",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Wood_Light-001.wav",
+      "Path": "SFX\\SFX_Footsteps_Wood_Light-001_F7D0E330.wem"
+     },
+     {
+      "Id": "436124859",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Dirt_Heavy-001.wav",
+      "Path": "SFX\\SFX_Footsteps_Dirt_Heavy-001_F7D0E330.wem"
+     },
+     {
+      "Id": "440124752",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Wood_Light-005.wav",
+      "Path": "SFX\\SFX_Footsteps_Wood_Light-005_F7D0E330.wem"
+     },
+     {
+      "Id": "472321242",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Dirt_Heavy-005.wav",
+      "Path": "SFX\\SFX_Footsteps_Dirt_Heavy-005_F7D0E330.wem"
+     },
+     {
+      "Id": "519437498",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Stone_Light-001.wav",
+      "Path": "SFX\\SFX_Footsteps_Stone_Light-001_F7D0E330.wem"
+     },
+     {
+      "Id": "529763111",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Stone_Light-005.wav",
+      "Path": "SFX\\SFX_Footsteps_Stone_Light-005_F7D0E330.wem"
+     },
+     {
+      "Id": "534243674",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Dirt_Light-007.wav",
+      "Path": "SFX\\SFX_Footsteps_Dirt_Light-007_F7D0E330.wem"
+     },
+     {
+      "Id": "561027538",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Wood_Light-003.wav",
+      "Path": "SFX\\SFX_Footsteps_Wood_Light-003_F7D0E330.wem"
+     },
+     {
+      "Id": "568984021",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Stone_Light-004.wav",
+      "Path": "SFX\\SFX_Footsteps_Stone_Light-004_F7D0E330.wem"
+     },
+     {
+      "Id": "585785218",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Stone_Light-003.wav",
+      "Path": "SFX\\SFX_Footsteps_Stone_Light-003_F7D0E330.wem"
+     },
+     {
+      "Id": "615458086",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Dirt_Light-008.wav",
+      "Path": "SFX\\SFX_Footsteps_Dirt_Light-008_F7D0E330.wem"
+     },
+     {
+      "Id": "616851287",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Dirt_Light-001.wav",
+      "Path": "SFX\\SFX_Footsteps_Dirt_Light-001_F7D0E330.wem"
+     },
+     {
+      "Id": "642911393",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Dirt_Light-005.wav",
+      "Path": "SFX\\SFX_Footsteps_Dirt_Light-005_F7D0E330.wem"
+     },
+     {
+      "Id": "657536739",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Dirt_Light-004.wav",
+      "Path": "SFX\\SFX_Footsteps_Dirt_Light-004_F7D0E330.wem"
+     },
+     {
+      "Id": "673322755",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Wood_Light-004.wav",
+      "Path": "SFX\\SFX_Footsteps_Wood_Light-004_F7D0E330.wem"
+     },
+     {
+      "Id": "709647924",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Stone_Light-008.wav",
+      "Path": "SFX\\SFX_Footsteps_Stone_Light-008_F7D0E330.wem"
+     },
+     {
+      "Id": "724013076",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Stone_Heavy-008.wav",
+      "Path": "SFX\\SFX_Footsteps_Stone_Heavy-008_F7D0E330.wem"
+     },
+     {
+      "Id": "737693611",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Wood_Heavy-008.wav",
+      "Path": "SFX\\SFX_Footsteps_Wood_Heavy-008_F7D0E330.wem"
+     },
+     {
+      "Id": "748406851",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Dirt_Heavy-004.wav",
+      "Path": "SFX\\SFX_Footsteps_Dirt_Heavy-004_F7D0E330.wem"
+     },
+     {
+      "Id": "748856516",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Wood_Light-007.wav",
+      "Path": "SFX\\SFX_Footsteps_Wood_Light-007_F7D0E330.wem"
+     },
+     {
+      "Id": "764419485",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Wood_Light-008.wav",
+      "Path": "SFX\\SFX_Footsteps_Wood_Light-008_F7D0E330.wem"
+     },
+     {
+      "Id": "787162803",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Wood_Heavy-004.wav",
+      "Path": "SFX\\SFX_Footsteps_Wood_Heavy-004_F7D0E330.wem"
+     },
+     {
+      "Id": "808787449",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Stone_Light-006.wav",
+      "Path": "SFX\\SFX_Footsteps_Stone_Light-006_F7D0E330.wem"
+     },
+     {
+      "Id": "810421532",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Dirt_Light-002.wav",
+      "Path": "SFX\\SFX_Footsteps_Dirt_Light-002_F7D0E330.wem"
+     },
+     {
+      "Id": "827004542",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Stone_Heavy-003.wav",
+      "Path": "SFX\\SFX_Footsteps_Stone_Heavy-003_F7D0E330.wem"
+     },
+     {
+      "Id": "860818855",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Dirt_Light-006.wav",
+      "Path": "SFX\\SFX_Footsteps_Dirt_Light-006_F7D0E330.wem"
+     },
+     {
+      "Id": "870090524",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Stone_Heavy-007.wav",
+      "Path": "SFX\\SFX_Footsteps_Stone_Heavy-007_F7D0E330.wem"
+     },
+     {
+      "Id": "881670961",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Stone_Heavy-006.wav",
+      "Path": "SFX\\SFX_Footsteps_Stone_Heavy-006_F7D0E330.wem"
      },
      {
       "Id": "903616490",
@@ -65,6 +368,30 @@
       "Language": "SFX",
       "ShortName": "SFX_Hephaestus_ATK_Rnd_1.wav",
       "Path": "SFX\\SFX_Hephaestus_ATK_Rnd_1_F7D0E330.wem"
+     },
+     {
+      "Id": "953062764",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Wood_Heavy-007.wav",
+      "Path": "SFX\\SFX_Footsteps_Wood_Heavy-007_F7D0E330.wem"
+     },
+     {
+      "Id": "993077645",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Stone_Heavy-002.wav",
+      "Path": "SFX\\SFX_Footsteps_Stone_Heavy-002_F7D0E330.wem"
+     },
+     {
+      "Id": "1015504622",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Stone_Light-002.wav",
+      "Path": "SFX\\SFX_Footsteps_Stone_Light-002_F7D0E330.wem"
+     },
+     {
+      "Id": "1066432110",
+      "Language": "SFX",
+      "ShortName": "SFX_Footsteps_Dirt_Heavy-006.wav",
+      "Path": "SFX\\SFX_Footsteps_Dirt_Heavy-006_F7D0E330.wem"
      }
     ]
    }

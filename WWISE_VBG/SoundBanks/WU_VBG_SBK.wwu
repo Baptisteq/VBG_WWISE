@@ -5,6 +5,9 @@
 			<ChildrenList>
 				<SoundBank Name="VBG_MAIN_SBK" ID="{AD8C38F8-CFC0-4AA8-96EF-7D6560236BBF}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Footsteps_Heavy" ID="{4AD0EE48-C2A0-41BF-BE1D-726D26B578E7}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Event_VBG_PORT" ID="{89C691CB-7281-48AD-986A-950A5B870836}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Footsteps_Light" ID="{910ACA6D-629A-4B80-890B-B394CE512FE0}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Event_HEPHA_ATK" ID="{83E35737-2EC9-4C88-8B8A-8AF40207E97F}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
