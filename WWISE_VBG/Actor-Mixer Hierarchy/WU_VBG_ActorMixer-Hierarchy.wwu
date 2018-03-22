@@ -229,6 +229,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Dirt_Heavy-002" ID="{4216AAFD-4703-494E-9558-521E4749616C}" ShortID="18065472">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.364158520900322"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Dirt_Heavy-002.wav</AudioFile>
 												</AudioFileSource>
@@ -248,6 +251,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Dirt_Heavy-003" ID="{04368686-12EF-4DE0-A5FD-42124E37F5A0}" ShortID="82034909">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.3649586414791"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Dirt_Heavy-003.wav</AudioFile>
 												</AudioFileSource>
@@ -267,6 +273,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Dirt_Heavy-001" ID="{232FFAA7-CF78-47D6-AA31-CCFD1780F961}" ShortID="436124859">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.385520900321543"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Dirt_Heavy-001.wav</AudioFile>
 												</AudioFileSource>
@@ -286,6 +296,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Dirt_Heavy-005" ID="{072A9473-4E4B-47E8-BD11-DC75A085ECB2}" ShortID="472321242">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.312883373526259"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Dirt_Heavy-005.wav</AudioFile>
 												</AudioFileSource>
@@ -305,6 +318,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Dirt_Heavy-004" ID="{D4F4D025-24AC-42E2-86E6-620BBF493028}" ShortID="748406851">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.352645498392283"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Dirt_Heavy-004.wav</AudioFile>
 												</AudioFileSource>
@@ -324,6 +340,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Dirt_Heavy-006" ID="{CCF4AE11-51CA-49B1-8E04-2029E7E423AF}" ShortID="1066432110">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.344889201500536"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Dirt_Heavy-006.wav</AudioFile>
 												</AudioFileSource>
@@ -343,6 +362,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Dirt_Heavy-007" ID="{6D1BA65C-0623-46B6-9324-FFACC8F78049}" ShortID="367290376">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.373118113612004"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Dirt_Heavy-007.wav</AudioFile>
 												</AudioFileSource>
@@ -362,6 +384,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Dirt_Heavy-008" ID="{18695B18-8585-4C07-8233-D502D5C8BE96}" ShortID="29435297">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.312635209003215"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Dirt_Heavy-008.wav</AudioFile>
 												</AudioFileSource>
@@ -397,6 +422,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Wood_Heavy-001" ID="{966FFE64-B04A-423D-8FD6-3B3993C51324}" ShortID="378976114">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.523906109324758"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Wood_Heavy-001.wav</AudioFile>
 												</AudioFileSource>
@@ -416,6 +444,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Wood_Heavy-002" ID="{34237C5B-1FD7-4387-8500-CE5CE0928479}" ShortID="110006263">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.509360999464094"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Wood_Heavy-002.wav</AudioFile>
 												</AudioFileSource>
@@ -435,6 +466,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Wood_Heavy-003" ID="{AB660D24-1933-4929-987D-027C7E22C3BB}" ShortID="174657596">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.525464147909968"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Wood_Heavy-003.wav</AudioFile>
 												</AudioFileSource>
@@ -454,6 +488,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Wood_Heavy-004" ID="{AF66DC1E-07F3-4091-844E-D42A34ED9682}" ShortID="787162803">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.490133172561629"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Wood_Heavy-004.wav</AudioFile>
 												</AudioFileSource>
@@ -473,6 +510,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Wood_Heavy-005" ID="{67DAB1D1-4237-48F2-9BED-F7FB921ECCB5}" ShortID="55560329">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.515978403001072"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Wood_Heavy-005.wav</AudioFile>
 												</AudioFileSource>
@@ -492,6 +532,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Wood_Heavy-006" ID="{F03E5514-BF24-48D2-8464-6F364E7CA334}" ShortID="421550719">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.541411428188639"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Wood_Heavy-006.wav</AudioFile>
 												</AudioFileSource>
@@ -511,6 +554,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Wood_Heavy-007" ID="{A0F606EA-13C9-4157-ACC9-3C84CF7D2286}" ShortID="953062764">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.534701245980707"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Wood_Heavy-007.wav</AudioFile>
 												</AudioFileSource>
@@ -530,6 +576,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Wood_Heavy-008" ID="{DDDD712A-09C7-41AA-BAE1-3B328D9D2DEB}" ShortID="737693611">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.482038370846731"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Wood_Heavy-008.wav</AudioFile>
 												</AudioFileSource>
@@ -565,6 +614,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Stone_Heavy-003" ID="{8363593D-CF3E-4E31-A482-37B054E63EF4}" ShortID="827004542">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.338451371116507"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Stone_Heavy-003.wav</AudioFile>
 												</AudioFileSource>
@@ -584,6 +636,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Stone_Heavy-002" ID="{F91AEC36-ADB0-4000-88D1-64BF2755C0DA}" ShortID="993077645">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.33989474374959"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Stone_Heavy-002.wav</AudioFile>
 												</AudioFileSource>
@@ -603,6 +658,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Stone_Heavy-001" ID="{8A9E44AA-1CCC-4466-A27F-426F8DDF3945}" ShortID="191647212">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.299401768853308"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Stone_Heavy-001.wav</AudioFile>
 												</AudioFileSource>
@@ -622,6 +680,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Stone_Heavy-004" ID="{C27ADDBD-4AFD-491F-A092-1B92F6858FC1}" ShortID="182924328">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.276426857988641"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Stone_Heavy-004.wav</AudioFile>
 												</AudioFileSource>
@@ -641,6 +702,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Stone_Heavy-005" ID="{A258C55C-029F-49D9-B57C-37BCF97A977E}" ShortID="241865414">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.286041880846658"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Stone_Heavy-005.wav</AudioFile>
 												</AudioFileSource>
@@ -660,6 +724,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Stone_Heavy-006" ID="{C7252F68-84D4-46AE-8726-5B53F3F44D56}" ShortID="881670961">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.26891803924142"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Stone_Heavy-006.wav</AudioFile>
 												</AudioFileSource>
@@ -679,6 +746,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Stone_Heavy-007" ID="{1A56C505-35D5-4231-B3DF-61088A834646}" ShortID="870090524">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.233889654468432"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Stone_Heavy-007.wav</AudioFile>
 												</AudioFileSource>
@@ -698,6 +768,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Stone_Heavy-008" ID="{E8770F6F-3753-42CD-8E18-4D6850A0365C}" ShortID="724013076">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.287885206815845"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Stone_Heavy-008.wav</AudioFile>
 												</AudioFileSource>
@@ -798,6 +871,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Stone_Light-001" ID="{054DA165-2AA9-40C9-B9C9-8DEC68E5E655}" ShortID="519437498">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.242200990149543"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Stone_Light-001.wav</AudioFile>
 												</AudioFileSource>
@@ -817,6 +893,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Stone_Light-002" ID="{BFEC2945-FEBB-4B97-BCE6-0FF31AACE41F}" ShortID="1015504622">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.255543014633506"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Stone_Light-002.wav</AudioFile>
 												</AudioFileSource>
@@ -836,6 +915,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Stone_Light-003" ID="{F9B33324-C3AA-4024-B685-374B983B0EAE}" ShortID="585785218">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.218811660141013"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Stone_Light-003.wav</AudioFile>
 												</AudioFileSource>
@@ -855,6 +937,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Stone_Light-004" ID="{04DE3DB5-FB2D-495F-8191-EBC0D3DDE35E}" ShortID="568984021">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.232815976551392"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Stone_Light-004.wav</AudioFile>
 												</AudioFileSource>
@@ -874,6 +959,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Stone_Light-005" ID="{0AFE2E8E-F6D6-4627-8A5B-8BE102EF93ED}" ShortID="529763111">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.232574315899994"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Stone_Light-005.wav</AudioFile>
 												</AudioFileSource>
@@ -893,6 +981,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Stone_Light-006" ID="{8B437645-FC54-4D5A-AA27-36057B3AD18E}" ShortID="808787449">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.240523452253356"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Stone_Light-006.wav</AudioFile>
 												</AudioFileSource>
@@ -912,6 +1003,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Stone_Light-007" ID="{2B59055C-739E-4E08-9E70-033E268DF5C9}" ShortID="174878853">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.232741285152861"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Stone_Light-007.wav</AudioFile>
 												</AudioFileSource>
@@ -931,6 +1025,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Stone_Light-008" ID="{3CE99712-54CF-409F-B35A-F5FDFFEB6F17}" ShortID="709647924">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.260468024294391"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Stone_Light-008.wav</AudioFile>
 												</AudioFileSource>
@@ -966,6 +1063,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Wood_Light-001" ID="{ACDACB98-7249-402D-B5B5-21A9CD62E303}" ShortID="431633879">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.552251045016077"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Wood_Light-001.wav</AudioFile>
 												</AudioFileSource>
@@ -985,6 +1085,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Wood_Light-002" ID="{23A2E724-1992-4BA8-979F-40692D941A95}" ShortID="72399346">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.552493234190782"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Wood_Light-002.wav</AudioFile>
 												</AudioFileSource>
@@ -1004,6 +1107,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Wood_Light-003" ID="{37B7A983-7238-4CEA-84BD-544D0CE36D28}" ShortID="561027538">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.494427974276527"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Wood_Light-003.wav</AudioFile>
 												</AudioFileSource>
@@ -1023,6 +1129,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Wood_Light-004" ID="{D50C198D-489C-456A-897E-573EF534B4D7}" ShortID="673322755">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.579775562700965"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Wood_Light-004.wav</AudioFile>
 												</AudioFileSource>
@@ -1042,6 +1151,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Wood_Light-005" ID="{9F14EC2E-337E-4C30-85A3-62B03B76A328}" ShortID="440124752">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.501226688102894"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Wood_Light-005.wav</AudioFile>
 												</AudioFileSource>
@@ -1061,6 +1173,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Wood_Light-006" ID="{30810070-FCAE-4255-992E-4D48827A78C7}" ShortID="227442152">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.553216519292605"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Wood_Light-006.wav</AudioFile>
 												</AudioFileSource>
@@ -1080,6 +1195,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Wood_Light-007" ID="{24638143-890E-4964-9B88-C9F6176DEA09}" ShortID="748856516">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.563634766881029"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Wood_Light-007.wav</AudioFile>
 												</AudioFileSource>
@@ -1099,6 +1217,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Wood_Light-008" ID="{B871D1DD-9397-4925-8788-6B16DA4EDF2E}" ShortID="764419485">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.543898713826367"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Wood_Light-008.wav</AudioFile>
 												</AudioFileSource>
@@ -1134,6 +1255,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Dirt_Light-001" ID="{0E2AC575-F131-493E-8DBA-812E3C826EF4}" ShortID="616851287">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.36209993301179"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Dirt_Light-001.wav</AudioFile>
 												</AudioFileSource>
@@ -1153,6 +1277,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Dirt_Light-002" ID="{890ACF89-9572-4284-A7D1-800B08162590}" ShortID="810421532">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.268123352090032"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Dirt_Light-002.wav</AudioFile>
 												</AudioFileSource>
@@ -1172,6 +1299,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Dirt_Light-003" ID="{72B03D8F-5DBA-4818-A082-63C9AE516BC0}" ShortID="138122895">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.310103027867095"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Dirt_Light-003.wav</AudioFile>
 												</AudioFileSource>
@@ -1191,6 +1321,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Dirt_Light-004" ID="{497BA02D-66F7-4BA8-8A94-6F5FA784E49C}" ShortID="657536739">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.337765434083601"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Dirt_Light-004.wav</AudioFile>
 												</AudioFileSource>
@@ -1210,6 +1343,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Dirt_Light-005" ID="{39B1CE22-4717-4C55-8DF0-30A77FAB28D0}" ShortID="642911393">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.355218140407288"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Dirt_Light-005.wav</AudioFile>
 												</AudioFileSource>
@@ -1229,6 +1365,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Dirt_Light-006" ID="{D8CB2956-277A-4E2E-A8D4-EA589199FB17}" ShortID="860818855">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.294840675241158"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Dirt_Light-006.wav</AudioFile>
 												</AudioFileSource>
@@ -1248,6 +1387,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Dirt_Light-007" ID="{1F79CA79-068A-4146-AF8B-DC2C29C59195}" ShortID="534243674">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.344836012861736"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Dirt_Light-007.wav</AudioFile>
 												</AudioFileSource>
@@ -1267,6 +1409,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Footsteps_Dirt_Light-008" ID="{2C03A9D4-8411-415D-AD4B-A7FB1136FE56}" ShortID="615458086">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="0.360356792604501"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Footsteps_Dirt_Light-008.wav</AudioFile>
 												</AudioFileSource>
