@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{495DA0F7-B6FC-4048-A597-6DF997B83F5D}" SchemaVersion="85">
 	<GameParameters>
-		<WorkUnit Name="WU_VBG_RTPC" ID="{495DA0F7-B6FC-4048-A597-6DF997B83F5D}" PersistMode="Standalone"/>
+		<WorkUnit Name="WU_VBG_RTPC" ID="{495DA0F7-B6FC-4048-A597-6DF997B83F5D}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

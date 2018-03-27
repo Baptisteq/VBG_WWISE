@@ -10,6 +10,10 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_M_VBGPORT_DYNAMIC" ID="{19CDD26D-830B-4C84-8032-71221B0E04C1}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Event_VBG_PORT" ID="{89C691CB-7281-48AD-986A-950A5B870836}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -22,9 +26,17 @@
 							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="PASSIF" ID="{EDDD970B-5A0A-482B-9E93-E3C58749BD75}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="FINAL" ID="{76467A9E-03B7-47CF-B455-AA665555B5D8}"/>
 						<CurrentSwitchRef Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

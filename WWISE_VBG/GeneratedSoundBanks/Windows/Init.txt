@@ -1,3 +1,11 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2407702553	GAMEPLAY_PHASE			\WU_VBG_States\GAMEPLAY_PHASE	
+
+State	ID	Name	State Group			Notes
+	0	None	GAMEPLAY_PHASE			
+	2247125562	ACTIF	GAMEPLAY_PHASE			
+	2831715831	PASSIF	GAMEPLAY_PHASE			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Reflect Acoustic Textures\Textures\Mountain	
@@ -15,6 +23,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	4262522749	Wood_Bright			\Factory Reflect Acoustic Textures\Textures\Wood_Bright	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	84696434	M			\Default Work Unit\Master Audio Bus\M	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	434268486	CHARA			\Default Work Unit\Master Audio Bus\SFX\CHARA	
 	2461340601	HEPHA			\Default Work Unit\Master Audio Bus\SFX\CHARA\HEPHA	

@@ -12,6 +12,7 @@
 								<Value>1</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Tempo" Type="Real64" Value="130"/>
 						<Property Name="UseMaxSoundPerInstance" Type="bool">
 							<ValueList>
 								<Value>True</Value>
@@ -23,7 +24,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA1A39EC-4140-45BE-8410-0298EA84A9B0}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
+							<ObjectRef Name="M" ID="{D3DCFA47-4DAA-4AA2-9128-E0A7E9FB6208}" WorkUnitID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -45,6 +46,21 @@
 										<Property Name="IsStreamingEnabled" Type="bool">
 											<ValueList>
 												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsZeroLantency" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="LookAheadTime" Type="int16">
+											<ValueList>
+												<Value>263</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PreFetchLength" Type="int16">
+											<ValueList>
+												<Value>211</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

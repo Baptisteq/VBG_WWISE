@@ -10,6 +10,15 @@
 						<Switch Name="Stone" ID="{C09AE937-39A2-4AF3-BBE8-EB82020FEB76}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="SW_M_VBG_PROGRESS" ID="{A6537C94-F225-4B67-B5B9-FAB17FE7EFC8}">
+					<ChildrenList>
+						<Switch Name="INTRO" ID="{593ABECF-3743-44B8-B447-3CD636E018AD}"/>
+						<Switch Name="THEME" ID="{12F63D31-7FBE-4FB1-8C4B-FF03239AC912}"/>
+						<Switch Name="THEMPROG" ID="{43A9693D-9715-4F6B-9C80-4310A6C7E044}"/>
+						<Switch Name="THEMEACC" ID="{89C396E7-8C91-4607-B854-4CA2580F39C7}"/>
+						<Switch Name="FINAL" ID="{76467A9E-03B7-47CF-B455-AA665555B5D8}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

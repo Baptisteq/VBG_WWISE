@@ -26,6 +26,7 @@
 								</AuxBus>
 							</ChildrenList>
 						</Bus>
+						<Bus Name="M" ID="{D3DCFA47-4DAA-4AA2-9128-E0A7E9FB6208}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

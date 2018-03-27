@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}" SchemaVersion="85">
 	<States>
-		<WorkUnit Name="WU_VBG_States" ID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}" PersistMode="Standalone"/>
+		<WorkUnit Name="WU_VBG_States" ID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="GAMEPLAY_PHASE" ID="{12F9E07A-027C-40A9-8887-7FCD8D88B8A6}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="4"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{AB850241-5098-4B72-9705-4E635D79468A}"/>
+						<State Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
+						<State Name="PASSIF" ID="{EDDD970B-5A0A-482B-9E93-E3C58749BD75}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

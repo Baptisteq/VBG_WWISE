@@ -73,6 +73,30 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_M_VBGPORT_DYNAMIC" ID="{19CDD26D-830B-4C84-8032-71221B0E04C1}">
+					<ChildrenList>
+						<Action Name="" ID="{3092BF13-B124-4DD4-A468-B37072F23ECB}" ShortID="771576621">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="INTRO" ID="{593ABECF-3743-44B8-B447-3CD636E018AD}" WorkUnitID="{37F7B3E2-994F-479E-9504-DE4D5023DBB8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F322C468-CE73-4A79-8609-10D4EB4A3995}" ShortID="1023847994">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="M_VBGPORT_DYNAMIC" ID="{0CBCDCCD-3C2A-421C-9F07-8D6DACD5F15D}" WorkUnitID="{06895041-158B-4EDF-A011-3B6F9618C6A5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
