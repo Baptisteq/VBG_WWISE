@@ -33,10 +33,10 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="PASSIF" ID="{EDDD970B-5A0A-482B-9E93-E3C58749BD75}"/>
+						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="THEME" ID="{12F63D31-7FBE-4FB1-8C4B-FF03239AC912}"/>
+						<CurrentSwitchRef Name="FINAL" ID="{76467A9E-03B7-47CF-B455-AA665555B5D8}"/>
 						<CurrentSwitchRef Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
