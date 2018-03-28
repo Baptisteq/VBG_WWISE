@@ -257,7 +257,6 @@
 															<AudioSourceRef Name="M_VBGPORT_PERCUS_STEM-GAIN_02-02" ID="{48ADED25-8DAF-4C5D-B673-9CA59F53DDC0}"/>
 														</MusicClip>
 													</ClipList>
-													<ReferenceList/>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
@@ -5575,7 +5574,6 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>

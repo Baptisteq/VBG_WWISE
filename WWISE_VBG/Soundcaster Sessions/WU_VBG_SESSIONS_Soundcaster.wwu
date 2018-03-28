@@ -40,6 +40,31 @@
 						<CurrentSwitchRef Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
+				<SoundcasterSession Name="SDC_M_DEMO2" ID="{795D4D00-4FB3-40AB-B924-CBA28E1E9EF5}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_M_VBGPORT_DYNAMIC_DEMO2" ID="{F6FD5BDF-AFDB-4D35-9AB8-99C39732CD4A}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="THEME" ID="{12F63D31-7FBE-4FB1-8C4B-FF03239AC912}"/>
+						<CurrentSwitchRef Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

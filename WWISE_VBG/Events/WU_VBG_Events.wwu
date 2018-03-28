@@ -17,20 +17,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Event_VBG_PORT" ID="{89C691CB-7281-48AD-986A-950A5B870836}">
-					<ChildrenList>
-						<Action Name="" ID="{02E71D69-E435-41FE-B076-07748FF42270}" ShortID="125623849">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PLAYLIST_VBG_PORT" ID="{CD58D1D8-D4D3-4BB4-AE90-5790DAE6FD4F}" WorkUnitID="{2E204A2C-50DD-4E2E-AD9B-5BD9C0263B33}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Footsteps_Heavy" ID="{4AD0EE48-C2A0-41BF-BE1D-726D26B578E7}">
 					<ChildrenList>
 						<Action Name="" ID="{0D85F26C-AC31-4D03-AD53-D25F4FFDA355}" ShortID="514134788">
@@ -73,30 +59,72 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_M_VBGPORT_DYNAMIC" ID="{19CDD26D-830B-4C84-8032-71221B0E04C1}">
+				<Folder Name="M_events" ID="{75C27CD1-1866-4BB6-897E-CECB0636D2E5}" ShortID="505839172">
 					<ChildrenList>
-						<Action Name="" ID="{3092BF13-B124-4DD4-A468-B37072F23ECB}" ShortID="771576621">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="INTRO" ID="{593ABECF-3743-44B8-B447-3CD636E018AD}" WorkUnitID="{37F7B3E2-994F-479E-9504-DE4D5023DBB8}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{F322C468-CE73-4A79-8609-10D4EB4A3995}" ShortID="1023847994">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="M_VBGPORT_DYNAMIC" ID="{0CBCDCCD-3C2A-421C-9F07-8D6DACD5F15D}" WorkUnitID="{06895041-158B-4EDF-A011-3B6F9618C6A5}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Event_VBG_PORT" ID="{89C691CB-7281-48AD-986A-950A5B870836}">
+							<ChildrenList>
+								<Action Name="" ID="{02E71D69-E435-41FE-B076-07748FF42270}" ShortID="125623849">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PLAYLIST_VBG_PORT" ID="{CD58D1D8-D4D3-4BB4-AE90-5790DAE6FD4F}" WorkUnitID="{2E204A2C-50DD-4E2E-AD9B-5BD9C0263B33}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_M_VBGPORT_DYNAMIC" ID="{19CDD26D-830B-4C84-8032-71221B0E04C1}">
+							<ChildrenList>
+								<Action Name="" ID="{3092BF13-B124-4DD4-A468-B37072F23ECB}" ShortID="771576621">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="INTRO" ID="{593ABECF-3743-44B8-B447-3CD636E018AD}" WorkUnitID="{37F7B3E2-994F-479E-9504-DE4D5023DBB8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F322C468-CE73-4A79-8609-10D4EB4A3995}" ShortID="1023847994">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_VBGPORT_DYNAMIC" ID="{0CBCDCCD-3C2A-421C-9F07-8D6DACD5F15D}" WorkUnitID="{06895041-158B-4EDF-A011-3B6F9618C6A5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_M_VBGPORT_DYNAMIC_DEMO2" ID="{F6FD5BDF-AFDB-4D35-9AB8-99C39732CD4A}">
+							<ChildrenList>
+								<Action Name="" ID="{E50D246F-4032-48AC-9BE0-0639F189E740}" ShortID="879642259">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="INTRO" ID="{593ABECF-3743-44B8-B447-3CD636E018AD}" WorkUnitID="{37F7B3E2-994F-479E-9504-DE4D5023DBB8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4B844C9A-0A2A-413E-80CD-2C7914AB27A8}" ShortID="625389480">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="M_VBGPORT_DYNAMIC" ID="{86212AEA-1010-4CFB-A59B-14CA47F2D742}" WorkUnitID="{63D9A6AB-E79A-45A4-99CA-6EC6CF11A64B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
