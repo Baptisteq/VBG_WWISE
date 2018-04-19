@@ -13,6 +13,58 @@
 						<State Name="PASSIF" ID="{EDDD970B-5A0A-482B-9E93-E3C58749BD75}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="MAP_ZONE" ID="{A5FF9F26-E645-40B1-A544-42050EAFF3D0}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{E333AAB6-5BE6-42E1-8B49-7DBEEB7E3D2A}"/>
+						<State Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}"/>
+						<State Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}"/>
+						<State Name="FALAISE" ID="{5CB745B9-61E5-476E-B139-0055819A76AE}"/>
+						<State Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}"/>
+							<EndState Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}"/>
+							<Time>8</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}"/>
+							<EndState Name="FALAISE" ID="{5CB745B9-61E5-476E-B139-0055819A76AE}"/>
+							<Time>14</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="FALAISE" ID="{5CB745B9-61E5-476E-B139-0055819A76AE}"/>
+							<EndState Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}"/>
+							<Time>14</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="MAP_ZONE_FALAISE" ID="{574E5013-147D-40A3-BEB6-FB2429A1169D}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="1.7"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{F7E252E4-E4C4-45B5-B240-76A4E0D8F8EF}"/>
+						<State Name="BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}"/>
+						<State Name="END" ID="{86783706-57C2-4898-A14E-CAA1944EA592}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="CLOCHES_PLAYEDONCE" ID="{63420C3B-915C-4E42-8373-2A463E497DED}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{ED694261-B290-4651-B7A8-66AE21EE2468}"/>
+						<State Name="TRUE" ID="{D2FD8B23-FE96-4698-970B-DC255A83AC64}"/>
+						<State Name="FALSE" ID="{DC6A1D07-6CB7-41C6-87EF-C34C8E9F1742}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

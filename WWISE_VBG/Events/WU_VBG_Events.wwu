@@ -45,20 +45,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Event_Init" ID="{E74F7B10-F591-4A31-8379-226586BF1D9B}">
-					<ChildrenList>
-						<Action Name="" ID="{23E6C984-2BFE-40FE-8E36-58572B2FC220}" ShortID="325293626">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="41"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Event_VBG_PORT" ID="{89C691CB-7281-48AD-986A-950A5B870836}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="M_events" ID="{75C27CD1-1866-4BB6-897E-CECB0636D2E5}" ShortID="505839172">
 					<ChildrenList>
 						<Event Name="Event_VBG_PORT" ID="{89C691CB-7281-48AD-986A-950A5B870836}">
@@ -125,6 +111,826 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Event_Init" ID="{E74F7B10-F591-4A31-8379-226586BF1D9B}">
+					<ChildrenList>
+						<Action Name="" ID="{23E6C984-2BFE-40FE-8E36-58572B2FC220}" ShortID="325293626">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Event_VBG_PORT" ID="{89C691CB-7281-48AD-986A-950A5B870836}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="AMB_events" ID="{E4A3FA10-36D9-4E79-A65F-EF9CC6A63234}" ShortID="499868295">
+					<ChildrenList>
+						<Event Name="AMB_Init" ID="{B5E153F3-BD29-4951-99EA-C4AE99B45339}">
+							<Comment>EVETS FALAISES 7 SECONDES DE DECALAGE
+</Comment>
+							<ChildrenList>
+								<Action Name="" ID="{1021DB98-4FE8-45CF-8C02-76843A4732E3}" ShortID="431962762">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{39A53223-FAC4-45E0-BDDA-77F6842C0090}" ShortID="158611647">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CA639247-10A8-4E65-A0A7-B3984CD76244}" ShortID="175147150">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FALSE" ID="{DC6A1D07-6CB7-41C6-87EF-C34C8E9F1742}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0E55ADE4-B447-46E4-9D72-CB12B586252E}" ShortID="654459486">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_PORT" ID="{4B1DF12D-4ADA-4ECF-B917-099F6432248F}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3885AB05-8F67-437D-BC44-38C40C2223FD}" ShortID="884632887">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_FALAISE" ID="{1A75576D-8424-4DB5-999E-DD6334FC8EE9}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2DD6C8FF-6F7D-48B8-890F-F25EFFE7A1C0}" ShortID="646948262">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+										<Property Name="Delay" Type="Real64" Value="2.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_VILLAGE" ID="{58077742-8764-4D28-A783-E6F66242B8EE}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AMB_PORT" ID="{4B1DF12D-4ADA-4ECF-B917-099F6432248F}">
+							<ChildrenList>
+								<Action Name="" ID="{05AEEB7B-5028-46F4-B7E3-2065161062C4}" ShortID="858763984">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PORT" ID="{F77B59C9-7C69-4D59-9DE4-9AD229591CF6}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C3A7CB93-2E9E-4DE0-9CAA-DE14DE3A5A72}" ShortID="144975430">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E635D84F-7B7F-4E9E-B73C-4AF633C44F62}" ShortID="687935265">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PORT_OMNI" ID="{7474B22A-0DDF-484B-A408-029DD905BBF9}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{29D4B14B-85C3-480F-ABEF-037E6C04C146}" ShortID="769162912">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5CB51FA6-9847-4B81-8BD6-DFAEB6A8EAC9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PORT_OMNI" ID="{7474B22A-0DDF-484B-A408-029DD905BBF9}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{67805F52-ED14-4E86-A9DA-4E295FB4C813}" ShortID="724167553">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="2.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PORT_RNDS" ID="{16A7D5C5-D39C-4B26-8C84-8E614C5DB0EF}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DF341908-9995-450B-AA68-E74C9D97C158}" ShortID="921388704">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+										<Property Name="Delay" Type="Real64" Value="4">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DE257A87-2BC0-40BE-B5BC-3A183B317B17}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_passby_Boat" ID="{CC127B12-490E-4CE8-9067-FEA5FC86E3BF}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2CDE7D8B-B6F1-4ED3-B515-1E8C218D0C39}" ShortID="98908358">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_CLAPOTS" ID="{2F1E32CE-3AAF-45EC-80C8-183EA94A8F30}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CFBD2E4E-42E3-4304-ABA0-0CDF163C8A14}" ShortID="91450488">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Delay" Type="Real64" Value="0.125"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+										<Property Name="Volume" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PORT" ID="{F77B59C9-7C69-4D59-9DE4-9AD229591CF6}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AMB_FALAISE" ID="{1A75576D-8424-4DB5-999E-DD6334FC8EE9}">
+							<ChildrenList>
+								<Action Name="" ID="{C98637E3-0BAC-4843-AF3E-23E8B2F8F61F}" ShortID="1073651280">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FALAISE" ID="{7D2D44D0-E6DC-4D21-82AC-84D84F44B279}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FC1EA56D-F417-4671-8253-3122F1959813}" ShortID="914334061">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_FALAISE_CAMPAGNE_VENT_GRILLONS_2D_LOOP" ID="{26E3920C-51DA-4BF7-8809-DFDA86893C1F}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E7D1E4F4-354B-44DC-9DDB-017688FE6BA3}" ShortID="616101729">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CE06E359-6B0F-4455-818C-8531F1DE76EA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_FALAISE_CAMPAGNE_VENT_GRILLONS_2D_LOOP" ID="{26E3920C-51DA-4BF7-8809-DFDA86893C1F}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{638B82E3-2367-4D6C-8F26-CD73CDE84E5C}" ShortID="239580067">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Delay" Type="Real64" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+										<Property Name="Volume" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FALAISE" ID="{7D2D44D0-E6DC-4D21-82AC-84D84F44B279}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AMB_VILLAGE" ID="{58077742-8764-4D28-A783-E6F66242B8EE}">
+							<ChildrenList>
+								<Action Name="" ID="{3A6F6E07-3AED-4B9D-AE4C-7C1C90A773D2}" ShortID="426857131">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VILLAGE" ID="{FF9A3E1F-4CFE-47CD-A4BB-246A1A5ED83F}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D3A46AE4-994F-4C65-B9CD-DC2D68D2A2D4}" ShortID="258659021">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_VILLAGE_2D_LOOP" ID="{269ED52A-5E91-4B76-B645-B79C0855C4D2}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DD4943D8-E5FF-4744-B0B1-4414D7CFB29F}" ShortID="913697515">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{40B72163-5BDE-4735-B0B1-93C0457CAAE6}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_VILLAGE_2D_LOOP" ID="{269ED52A-5E91-4B76-B645-B79C0855C4D2}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D5020D73-DBEB-4C41-83AF-5D5B074901FC}" ShortID="610194873">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Delay" Type="Real64" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+										<Property Name="Volume" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VILLAGE" ID="{FF9A3E1F-4CFE-47CD-A4BB-246A1A5ED83F}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_passby_Boat" ID="{CC127B12-490E-4CE8-9067-FEA5FC86E3BF}">
+							<ChildrenList>
+								<Action Name="" ID="{54576D59-CB5B-4EC9-A9F6-E831718CE35A}" ShortID="200684413">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeCurve" Type="int16" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PORT_BATEAU2_RND" ID="{A6EF9CEC-B790-4185-86D5-D481C6B391CA}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AMB_CLAPOTS" ID="{2F1E32CE-3AAF-45EC-80C8-183EA94A8F30}">
+							<ChildrenList>
+								<Action Name="" ID="{51162FED-8364-4F07-930F-E2F81DFE58B2}" ShortID="803632225">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CLAPOTS_RND" ID="{D7B796BE-1CE6-4064-8B39-08B78D97506A}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AMB_PORT_MER" ID="{55856375-2402-4BF7-A66A-2EC69AF2F3E6}">
+							<ChildrenList>
+								<Action Name="" ID="{4291BD76-AC8E-45F2-BB25-CBD3FDAACDD2}" ShortID="948748077">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_PORT_MER_VAGUES_2D_LOOP" ID="{3AD24BA5-2EE0-47D6-94D4-D6DF9F40EE36}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{79DF0CCF-395F-4EFC-92B0-257C59FD129E}" ShortID="858605395">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C2821D99-9746-40CA-8596-2C0A5ECDC3E4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_PORT_MER_VAGUES_2D_LOOP" ID="{3AD24BA5-2EE0-47D6-94D4-D6DF9F40EE36}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CE2EC560-A48A-4ED2-A068-07387FABCB45}" ShortID="384746593">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="TrigerZone_AMB" ID="{25653E31-9406-4C7F-9E60-2CBE08C69B18}" ShortID="707818831">
+							<ChildrenList>
+								<Event Name="TriggerZone_PORT" ID="{4FEEB20E-72D6-4421-8BC5-42B8114E9C1F}">
+									<ChildrenList>
+										<Action Name="" ID="{F49A8F08-D204-4E4C-A9E2-A34EA67D72C4}" ShortID="511619193">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PORT" ID="{043CCA0F-0E58-4B37-9D53-F3B7120D3209}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{A1917C42-6FC1-427E-927B-5B2798FC8131}" ShortID="886441801">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="4"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FALAISE_RNDS" ID="{601A7345-CE28-4540-AD03-29B42C15807D}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TriggerZone_PORT_MER" ID="{CAA76D2D-EF84-45F9-BB34-6FC40A3FD9D8}">
+									<ChildrenList>
+										<Action Name="" ID="{7CCDA945-E5D7-442A-B33B-8BFBA7B5AC1D}" ShortID="193515046">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TriggerZone_FALAISE" ID="{AA66F78E-4496-4EBA-8238-F723E8F0C0DA}">
+									<ChildrenList>
+										<Action Name="" ID="{C4A3D45B-1955-48B5-83EA-304D98ED9FF6}" ShortID="791386142">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FALAISE" ID="{5CB745B9-61E5-476E-B139-0055819A76AE}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F90A176C-1AA7-49B8-8A6F-0D340AEF19FF}" ShortID="471176908">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+												<Property Name="Delay" Type="Real64" Value="2.5"/>
+												<Property Name="FadeTime" Type="Real64" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FALAISE_RNDS" ID="{601A7345-CE28-4540-AD03-29B42C15807D}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{2C20EE0F-DFE1-4130-A3AA-1220F25BCB13}" ShortID="1048699419">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="41"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Play_AMB_FALAISE_MOULIN_3D_LOOP" ID="{C40A64F6-25B9-48CC-8CFF-ADAC6D48F713}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{9FED124C-14C5-4718-AB94-4AA53D4AB966}" ShortID="670426947">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="41"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Play_AMB_VILLAGE_CIGALES_FORT_2D_LOOP" ID="{D46DC1B5-E499-46E5-A033-301E3130F755}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{DB69384E-1DCE-41DB-A8F6-83ABC5D5A0A8}" ShortID="292330969">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="4"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VILLAGE_RNDS" ID="{5353FEB5-32A8-48FA-8CB9-E822A64B038C}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TriggerZone_END_FALAISE" ID="{4DC4B9DF-DEA7-4EFB-86F7-1693F3C08972}">
+									<ChildrenList>
+										<Action Name="" ID="{342DEBEE-FF4D-4AA6-8226-F6D0CC4637FB}" ShortID="889825014">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="END" ID="{86783706-57C2-4898-A14E-CAA1944EA592}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{83AE76D0-624E-4744-8340-D9BDD93E0A94}" ShortID="104191783">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_PORT_RND_GRAVATS" ID="{D06CB9E1-FF4F-48E2-A6A9-187A40B20E03}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{22EF32B1-F011-4695-9607-348B5276A96D}" ShortID="578493664">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_PORT_RND_ROCHE" ID="{4069B6D6-DFCD-4883-ADC3-6B0F4CFCBE53}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{9825CA64-F8CC-458F-A074-CDE802625BA8}" ShortID="51127764">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_PORT_RND_VENT_SIFFLANT" ID="{B8F116BF-1B10-4A7C-B511-FDCF00488C8B}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TriggerZone_BEGIN_FALAISE" ID="{F4A87C89-3B6D-40D5-9641-B26F6FBCDF4B}">
+									<ChildrenList>
+										<Action Name="" ID="{FAC44DD6-18BF-4FED-986B-2D19E40A0F51}" ShortID="800562453">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{883EC9E4-A783-460E-A110-8C9B19F280D5}" ShortID="979519486">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_PORT_RND_ROCHE" ID="{4069B6D6-DFCD-4883-ADC3-6B0F4CFCBE53}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{9AADB0D0-FAB6-4AE7-BD69-36E974D353BA}" ShortID="903590836">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_PORT_RND_VENT_SIFFLANT" ID="{B8F116BF-1B10-4A7C-B511-FDCF00488C8B}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{8CCF45F1-E3E3-4824-9856-B4507B9DE4C9}" ShortID="714721373">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_PORT_RND_GRAVATS" ID="{D06CB9E1-FF4F-48E2-A6A9-187A40B20E03}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TriggerZone_VILLAGE" ID="{5189156D-ED9A-45C1-A5CD-5919EE796024}">
+									<ChildrenList>
+										<Action Name="" ID="{376C0B8E-ABD9-4748-B9BF-09030C27E0F7}" ShortID="828625382">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VILLAGE" ID="{DA36E68C-BFB9-4945-B864-1626C864EC6F}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{55F01543-4E50-406D-BAF7-6102CDE91CCB}" ShortID="1037263568">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+												<Property Name="FadeTime" Type="Real64" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_VILLAGE_2D_LOOP" ID="{269ED52A-5E91-4B76-B645-B79C0855C4D2}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{EFD00DB2-EFFE-49A3-AB73-4FA10C1F2CAC}" ShortID="601754781">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="36"/>
+												<Property Name="SeekPercent" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{4728E67A-484D-47AF-8BCD-4EC719B52962}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_VILLAGE_2D_LOOP" ID="{269ED52A-5E91-4B76-B645-B79C0855C4D2}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5FB5D37C-21DF-45CA-837E-7AF88DBCCC40}" ShortID="731019122">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+												<Property Name="Delay" Type="Real64" Value="5">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{83BB0547-B138-4199-AC07-D77F5923292C}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_VILLAGE_CLOCHES_OS" ID="{83395B10-5824-4C7E-A5C1-DD9DB0A72597}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{B8862161-D8AC-4559-9868-BD407D759233}" ShortID="505401026">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+												<Property Name="Delay" Type="Real64" Value="8"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="TRUE" ID="{D2FD8B23-FE96-4698-970B-DC255A83AC64}" WorkUnitID="{CE988CDB-2DEC-4B44-AE99-406B162A76C1}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{D797CCA2-F964-4D5C-A257-95E1A63AE54B}" ShortID="102875793">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+												<Property Name="Delay" Type="Real64" Value="3">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{BA968452-A001-43B4-96D8-FA6694CDF277}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="FadeTime" Type="Real64" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VILLAGE_RNDS" ID="{5353FEB5-32A8-48FA-8CB9-E822A64B038C}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F13D02FF-EA04-4677-B383-A17AA78CC61D}" ShortID="74531668">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="4"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FALAISE_RNDS" ID="{601A7345-CE28-4540-AD03-29B42C15807D}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="AMB_3D" ID="{1318F173-48A1-4600-8AA2-EC89C992E0C1}" ShortID="967806420">
+							<ChildrenList>
+								<Event Name="Play_AMB_FALAISE_MOULIN_3D_LOOP" ID="{C40A64F6-25B9-48CC-8CFF-ADAC6D48F713}">
+									<ChildrenList>
+										<Action Name="" ID="{D2827F3A-64F3-416E-A4CE-D79A29976854}" ShortID="70054426">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+												<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_VILLAGE_MOULIN_3D_LOOP" ID="{2B66DB9F-C577-4199-94C8-8CF1A42C581A}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F1F24CC0-4E35-4ECA-9D04-FFA2B0CA67BB}" ShortID="862387650">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="36"/>
+												<Property Name="SeekPercent" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{E99A2FEC-DB5C-4F5C-B295-26F822DA761E}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_VILLAGE_MOULIN_3D_LOOP" ID="{2B66DB9F-C577-4199-94C8-8CF1A42C581A}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_AMB_VILLAGE_CIGALES_FORT_2D_LOOP" ID="{D46DC1B5-E499-46E5-A033-301E3130F755}">
+									<ChildrenList>
+										<Action Name="" ID="{5BB41BEA-D9D3-4A6B-868C-4BF2D9D4CE63}" ShortID="786019009">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+												<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_VILLAGE_CIGALES_FORT_2D_LOOP" ID="{C7186C48-A3EB-4AA2-8756-6D22502E7F4C}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{EC0C808C-F59F-43C2-8398-D1F84734BBF3}" ShortID="650706878">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="36"/>
+												<Property Name="SeekPercent" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C410386C-A85C-4E9E-8A47-786962F8EEA6}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_VILLAGE_CIGALES_FORT_2D_LOOP" ID="{C7186C48-A3EB-4AA2-8756-6D22502E7F4C}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Ak_destroy" ID="{FEFDB686-850A-4667-B26E-F4C52E8748F7}">
+							<ChildrenList>
+								<Action Name="" ID="{D0AC5C59-71CE-4000-9529-72FA275FEF6B}" ShortID="33473848">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+										<Property Name="Delay" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_TEST_3D" ID="{248C511B-DCB4-40DA-ADFA-9C6DBC844B39}">
+					<ChildrenList>
+						<Action Name="" ID="{4C162D0A-444C-4E19-92D8-A9A56DE4352C}" ShortID="137724261">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TEST_3D" ID="{9BD9092A-D3A0-4370-ACD8-DCC538D34557}" WorkUnitID="{4293CC0B-FFA8-4A29-8B13-3FE897B31D3A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -3,26 +3,26 @@
 	<Platform GUID="{2F72EF33-3FC4-417F-8086-D3B58A8649BD}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="711345988" Timestamp="1522168859"/>
-				<File Name="VBG_MAIN_SBK" Hash="2747142344" Timestamp="1522168431"/>
+				<File Name="Init" Hash="2816252513" Timestamp="1524056753"/>
+				<File Name="VBG_MAIN_SBK" Hash="643364236" Timestamp="1524059333"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="393239870">
-				<File Name="Init" Hash="620989188" Timestamp="1522168859"/>
-				<File Name="VBG_MAIN_SBK" Hash="1134354017" Timestamp="1522168431"/>
+				<File Name="Init" Hash="4071999554" Timestamp="1524056753"/>
+				<File Name="VBG_MAIN_SBK" Hash="3364554312" Timestamp="1524059333"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="3491626312" Timestamp="1522168859"/>
+				<File Name="" Hash="2082449622" Timestamp="1524059333"/>
 			</Language>
 		</XMLInfo>
 		<JSONInfo>
 			<Language ID="393239870">
-				<File Name="Init" Hash="2210298119" Timestamp="1522168859"/>
-				<File Name="VBG_MAIN_SBK" Hash="2011573571" Timestamp="1522168431"/>
+				<File Name="Init" Hash="571136865" Timestamp="1524056753"/>
+				<File Name="VBG_MAIN_SBK" Hash="3583058056" Timestamp="1524059333"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="3007865703" Timestamp="1522168859"/>
+				<File Name="" Hash="2432526063" Timestamp="1524059333"/>
 			</Language>
 		</JSONInfo>
 	</Platform>

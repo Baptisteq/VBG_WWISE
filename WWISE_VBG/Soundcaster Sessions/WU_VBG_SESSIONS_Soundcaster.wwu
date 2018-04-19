@@ -31,13 +31,24 @@
 							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
 							<Value>0</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}"/>
 						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
+						<CurrentStateRef Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}"/>
+						<CurrentStateRef Name="TRUE" ID="{D2FD8B23-FE96-4698-970B-DC255A83AC64}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="FINAL" ID="{76467A9E-03B7-47CF-B455-AA665555B5D8}"/>
-						<CurrentSwitchRef Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
+						<CurrentSwitchRef Name="Metal" ID="{05465050-7C53-480A-B288-875374F1E282}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="SDC_M_DEMO2" ID="{795D4D00-4FB3-40AB-B924-CBA28E1E9EF5}">
@@ -45,6 +56,10 @@
 						<Module>
 							<ObjectRef Name="Play_M_VBGPORT_DYNAMIC_DEMO2" ID="{F6FD5BDF-AFDB-4D35-9AB8-99C39732CD4A}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
 							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_M_VBGPORT_DYNAMIC" ID="{19CDD26D-830B-4C84-8032-71221B0E04C1}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -56,13 +71,87 @@
 							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
 							<Value>100</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}"/>
 						<CurrentStateRef Name="ACTIF" ID="{5037D32D-7DF3-4544-AF6C-649D26966A85}"/>
+						<CurrentStateRef Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}"/>
+						<CurrentStateRef Name="TRUE" ID="{D2FD8B23-FE96-4698-970B-DC255A83AC64}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="THEME" ID="{12F63D31-7FBE-4FB1-8C4B-FF03239AC912}"/>
-						<CurrentSwitchRef Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
+						<CurrentSwitchRef Name="THEMEACC" ID="{89C396E7-8C91-4607-B854-4CA2580F39C7}"/>
+						<CurrentSwitchRef Name="Metal" ID="{05465050-7C53-480A-B288-875374F1E282}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="SDC_AMB" ID="{ECE84A1A-8D1E-458B-9423-25A7A519252C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="AMB_Init" ID="{B5E153F3-BD29-4951-99EA-C4AE99B45339}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="AMB_PORT" ID="{4B1DF12D-4ADA-4ECF-B917-099F6432248F}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="AMB_FALAISE" ID="{1A75576D-8424-4DB5-999E-DD6334FC8EE9}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_PORT_MER" ID="{CAA76D2D-EF84-45F9-BB34-6FC40A3FD9D8}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_PORT" ID="{4FEEB20E-72D6-4421-8BC5-42B8114E9C1F}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_FALAISE" ID="{AA66F78E-4496-4EBA-8238-F723E8F0C0DA}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_VILLAGE" ID="{5189156D-ED9A-45C1-A5CD-5919EE796024}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_BEGIN_FALAISE" ID="{F4A87C89-3B6D-40D5-9641-B26F6FBCDF4B}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TriggerZone_END_FALAISE" ID="{4DC4B9DF-DEA7-4EFB-86F7-1693F3C08972}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AMB_FALAISE_MOULIN_3D_LOOP" ID="{C40A64F6-25B9-48CC-8CFF-ADAC6D48F713}" WorkUnitID="{18170C99-9932-4AEA-A67D-3ACB79FC6612}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="debug_SPEEDPLAYBACK" ID="{F81781CB-1AA9-46E7-A96B-765CF6B13E13}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_DistVillage" ID="{A1B01ACA-BCEB-4CC0-864A-645CE50ABEE7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_GAMEDEFINED_DISTANCE_MOULIN" ID="{45CE2059-DB18-4F6A-A943-F244616F52EB}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="BEGIN" ID="{45208006-D480-44BB-A159-8FB15AE55C49}"/>
+						<CurrentStateRef Name="PORT_MER" ID="{08EEC8DD-B198-464B-8F65-2EA270C2C391}"/>
+						<CurrentStateRef Name="TRUE" ID="{D2FD8B23-FE96-4698-970B-DC255A83AC64}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="FINAL" ID="{76467A9E-03B7-47CF-B455-AA665555B5D8}"/>
+						<CurrentSwitchRef Name="Wood" ID="{76B7D577-3F3F-4F04-87AE-21A3D481B242}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

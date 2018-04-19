@@ -8,6 +8,7 @@
 						<Switch Name="Dirt" ID="{CB99854B-A3D8-429F-ABD9-08EF2C087269}"/>
 						<Switch Name="Wood" ID="{76B7D577-3F3F-4F04-87AE-21A3D481B242}"/>
 						<Switch Name="Stone" ID="{C09AE937-39A2-4AF3-BBE8-EB82020FEB76}"/>
+						<Switch Name="Metal" ID="{05465050-7C53-480A-B288-875374F1E282}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="SW_M_VBG_PROGRESS" ID="{A6537C94-F225-4B67-B5B9-FAB17FE7EFC8}">

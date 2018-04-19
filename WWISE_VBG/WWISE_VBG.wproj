@@ -17,6 +17,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjUzNjIiIG1hc2s9IlhaTUs3OTQyIiBlbmM9IjAiPjxsaWNl&#xD;&#xA;bnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMs&#xD;&#xA;NCwxMCwxMywxNCIgZXhwaXJlcz0iMjAxOC0wNy0zMSIgIC8+PGxpY2Vuc2UgaWQ9&#xD;&#xA;IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i&#xD;&#xA;MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMTgtMDctMzEiICAvPjxsaWNlbnNl&#xD;&#xA;IGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0i&#xD;&#xA;MiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMTgtMDctMzEiICAvPjxsaWNlbnNl&#xD;&#xA;IGlkPSIyNSIgbmFtZT0iQWxsIFd3aXNlIFBsdWctSW5zIiB0eXBlPSIzIiAgZXhw&#xD;&#xA;aXJlcz0iMjAxOC0wNy0zMSIgIC8+PC9wcm9qZWN0Pg==|iAgrC0tv/p2au8kebCk&#xD;&#xA;cT5MvnRZCrXC+p0IP5boZto0d+M5AwBEOGyEhDHEGlAdaEU+d+ItCjaPPq47Nqc/&#xD;&#xA;OFnirQ2N/JmljPOH8hEWcR96kfW4Et8ozPh8vNGXwCfGLl0hKdOQvFsu8B823X9Q&#xD;&#xA;AJKhM+arxVxXMyFZIZiV3//pCSkPfCreHm8rjd6bvhyahYjJ0N3HAPPfxUnwE304&#xD;&#xA;MBQ7q7LT0wkjIJDBiEu3Rzjt+CjGigYXCmwtD5/6KJ8m2ixU5S/4vK/6xns01OSj&#xD;&#xA;KnWPjGJPRI5qGdzB/c6oABhV57h78hwy1bRH8qXnms2unuT61/uojIalLKPIH9cB&#xD;&#xA;sqA==&#xD;&#xA;" />
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
@@ -32,7 +33,7 @@
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True" />
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True" />
 				<Property Name="SoundBankGeneratePrintGUID" Type="bool" Value="True" />
-				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="E:\PROJET\VBG\VBG_WWISE_UNITY\VBG_WWISE_UNITY\Assets\StreamingAssets\Audio\GeneratedSoundBanks" />
+				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="../../VBG/Assets/StreamingAssets/Audio/GeneratedSoundBanks" />
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>

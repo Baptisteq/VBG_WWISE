@@ -1,0 +1,6 @@
+.cache
+*SoundBanks
+*.bnk
+GeneratedSoundBanks
+Originals
+*.prof

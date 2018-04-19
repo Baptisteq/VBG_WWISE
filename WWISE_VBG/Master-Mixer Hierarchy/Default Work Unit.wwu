@@ -4,9 +4,19 @@
 		<WorkUnit Name="Default Work Unit" ID="{2B42A094-68F1-4414-A1E6-24FF64B8FBF8}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>24</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{850A1253-0D3C-4F84-B063-3E92BA4DBEBB}" WorkUnitID="{2487C6A0-FA32-4207-A1CE-5CDA417A171C}"/>
+						</Reference>
+						<Reference Name="Effect3" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -24,6 +34,50 @@
 										</Reference>
 									</ReferenceList>
 								</AuxBus>
+								<Bus Name="AMB" ID="{52FAE969-B729-4298-A285-73A7629A04F5}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="PORT" ID="{B1B905A4-7925-42C1-88D8-B189BB69E16D}">
+											<ChildrenList>
+												<AuxBus Name="AC_PORT" ID="{57330065-42D0-456F-BF38-FC9438A8BC3F}">
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="FALAISE" ID="{0291D268-F790-4809-A68D-DC24F2B1EAF1}">
+											<ChildrenList>
+												<AuxBus Name="AC_FALAISE" ID="{94A2E18E-ABD9-436E-BDAB-7A89594E206A}">
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<ObjectRef Name="Hall_Small_Bright" ID="{D8AD1955-D2BA-4C88-A806-E2D8AB47A90B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="VILLAGE" ID="{A21B0F96-A396-401F-ADA8-95CD3421140A}">
+											<ChildrenList>
+												<AuxBus Name="AC_VILLAGE" ID="{0D2D0970-187F-476F-BE41-AD8CDD5D3F9B}">
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<ObjectRef Name="Hall_Medium_Bright" ID="{3C3845B2-C76E-4634-9108-83FA43A5A7BC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+													</ReferenceList>
+												</AuxBus>
+											</ChildrenList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
 							</ChildrenList>
 						</Bus>
 						<Bus Name="M" ID="{D3DCFA47-4DAA-4AA2-9128-E0A7E9FB6208}"/>
